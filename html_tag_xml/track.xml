@@ -1,0 +1,60 @@
+<html_tag>
+
+	<tag>track</tag>
+	<image></image>
+	<desc>Specifies text tracks for media elements</desc>
+	<self_closing>true</self_closing>
+	
+	<attribute_list>
+		
+		<attribute>
+			<name>default</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>kind</name>
+			<allowed_values>
+				<value>captions</value>
+				<value>chapters</value>
+				<value>descriptions</value>
+				<value>metadata</value>
+				<value>subtitles</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>label</name>
+			<allowed_values>
+				<value>
+					<text />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>src</name>
+			<allowed_values>
+				<value>
+					<url />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>srclang</name>
+			<allowed_values>
+				<value>
+					<language_code />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags />
+	
+</html_tag>

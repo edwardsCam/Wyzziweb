@@ -1,0 +1,11 @@
+<html_tag>
+
+	<tag>span</tag>
+	<image></image>
+	<desc>Used to color part of a text</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list />
+	<sub_tags />
+	
+</html_tag>

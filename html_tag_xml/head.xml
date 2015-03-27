@@ -1,0 +1,16 @@
+<html_tag>
+	<tag>head</tag>
+	<desc>Defines the header data for a file</desc>
+	
+	<self_closing>false</self_closing>
+	
+	<attribute_list />
+	
+	<sub_tags>
+		<tag>title</tag>
+		<tag>meta</tag>
+		<tag>link</tag>
+		<tag>style</tag>
+		<tag>script</tag>
+	</sub_tags>
+</html_tag>

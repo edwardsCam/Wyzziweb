@@ -1,0 +1,39 @@
+<html_tag>
+	<tag>a</tag>
+	<desc>Defines a hyperlink</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>title</name>
+			<allowed_values />
+		</attribute>
+
+		<attribute>
+			<name>href</name>
+			<allowed_values>URL</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>download</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>target</name>
+			<allowed_values>
+				<value>_blank</value>
+				<value>_parent</value>
+				<value>_self</value>
+				<value>_top</value>
+				<value>custom</value>
+			</allowed_values>
+		</attribute>
+	
+	</attribute_list>
+	
+	<sub_tags />
+</html_tag>

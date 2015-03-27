@@ -1,0 +1,25 @@
+<html_tag>
+	<tag>iframe</tag>
+
+	<image></image>
+	
+	<desc>Defines an inline frame</desc>
+	
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>name</name>
+			<allowed_values />
+		</attribute>
+
+		<attribute>
+			<name>src</name>
+			<allowed_values>URL</allowed_values>
+		</attribute>
+	
+	</attribute_list>
+	
+	<sub_tags />
+</html_tag>

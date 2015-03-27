@@ -1,0 +1,13 @@
+<html_tag>
+	<tag>canvas</tag>
+
+	<image></image>
+	
+	<desc>Used to draw graphics on the fly</desc>
+	
+	<self_closing>false</self_closing>
+	
+	<attribute_list />
+	
+	<sub_tags />
+</html_tag>

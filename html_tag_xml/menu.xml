@@ -1,0 +1,34 @@
+<html_tag>
+
+	<tag>menu</tag>
+	<image></image>
+	<desc>Menu</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>label</name>
+			<allowed_values>
+				<value>
+					<text />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>type</name>
+			<allowed_values>
+				<value>popup</value>
+				<value>toolbar</value>
+				<value>context</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags>
+		<tag>menuitem</tag>
+	</sub_tags>
+	
+</html_tag>

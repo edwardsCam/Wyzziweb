@@ -1,0 +1,10 @@
+<html_tag>
+	<tag>html</tag>
+	<desc>Defines as an html document</desc>
+	
+	<self_closing>false</self_closing>
+	
+	<attribute_list />
+	
+	<sub_tags />
+</html_tag>

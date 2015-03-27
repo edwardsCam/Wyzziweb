@@ -1,0 +1,63 @@
+<html_tag>
+	<tag>audio</tag>
+
+	<image></image>
+	
+	<desc>Defines sound content</desc>
+	
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>controls</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>autoplay</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>muted</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>loop</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>preload</name>
+			<allowed_values>auto</allowed_values>
+			<allowed_values>metadata</allowed_values>
+			<allowed_values>none</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>target</name>
+			<allowed_values>
+				<value>_blank</value>
+				<value>_parent</value>
+				<value>_self</value>
+				<value>_top</value>
+				<value>custom</value>
+			</allowed_values>
+		</attribute>
+	
+	</attribute_list>
+	
+	<sub_tags>
+		<tag>source</tag>
+	</sub_tags>
+</html_tag>

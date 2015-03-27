@@ -1,0 +1,2 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>title test</title><link href="styles/index_style.css" type="text/css" rel="stylesheet" /></head><body><h2 contenteditable="true" id="h2_0" class="draggable" style="color: rgb(242, 242, 242); background: none repeat scroll 0% 0% rgb(176, 33, 52);">This is a test<br /></h2></body></html>

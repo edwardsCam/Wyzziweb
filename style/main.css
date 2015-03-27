@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background: #bababa;
+}
+
+.main_content {
+    background: none repeat scroll 0 0 #CECECE;
+    box-shadow: 0 0 3px;
+    margin: auto;
+    width: 1000px;
+    min-height:300px;
+}
+
+header{
+	box-shadow: 0 0 3px;
+}
+
+#wyzzi_logo{
+	width:150px;
+	margin:10px;
+}
+
+#main_menu{
+	float:right;
+}
+
+#main_menu > li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 12px 20px;
+}
+
+#main_menu > li:hover{
+	border-bottom: 4px solid #0000bb;
+	cursor: pointer;
+}
+
+#login_frm{
+	width:300px;
+	margin:50px auto;
+}
+
+.inp_field{
+	display: block;
+	margin:10px 0;
+	width:250px;
+}
+
+#login_frm > legend{
+	margin-top:20px;
+}
+
+#social_login_btns {
+    margin: auto;
+    width: 300px;
+    padding:20px;
+}
+
+fieldset{
+	border:3px groove #333;
+}
+
+.pad{
+	padding:40px;
+}
+
+#register_frm{
+	width:300px;
+	margin:30px auto;
+}
+
+#forgot_passwd{
+	display: block;
+	margin-top: 10px;
+}
+
+#error {
+    color: #FF0000;
+    display: block;
+    margin: 0 0 15px;
+}

@@ -1,0 +1,23 @@
+<html_tag>
+
+	<tag>div</tag>
+	<image></image>
+	<desc>Specifies a section</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+		
+		<attribute>
+			<name>align</name>
+			<allowed_values>
+				<value>left</value>
+				<value>center</value>
+				<value>right</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags />
+	
+</html_tag>

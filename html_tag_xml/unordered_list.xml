@@ -1,0 +1,14 @@
+<html_tag>
+
+	<tag>ul</tag>
+	<image></image>
+	<desc>Unordered List</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list/>
+	
+	<sub_tags>
+		<tag>li</tag>
+	</sub_tags>
+	
+</html_tag>

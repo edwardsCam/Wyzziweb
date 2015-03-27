@@ -1,0 +1,19 @@
+<html_tag>
+	<tag>!DOCTYPE</tag>	
+	<desc>Defines document type</desc>
+	
+	<self_closing />
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>html</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+			
+	</attribute_list>
+	
+	<sub_tags />
+</html_tag>

@@ -1,0 +1,30 @@
+<html_tag>
+	<tag>img</tag>
+
+	<image></image>
+	
+	<desc>Defines an image</desc>
+	
+	<self_closing>true</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>alt</name>
+			<allowed_values />
+		</attribute>
+
+		<attribute>
+			<name>crossorigin</name>
+			<allowed_values />
+		</attribute>
+
+		<attribute>
+			<name>src</name>
+			<allowed_values>URL</allowed_values>
+		</attribute>
+	
+	</attribute_list>
+	
+	<sub_tags />
+</html_tag>

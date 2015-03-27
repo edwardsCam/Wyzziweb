@@ -1,0 +1,23 @@
+<html_tag>
+
+	<tag>pre</tag>
+	<image></image>
+	<desc>Preformatted Text</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+		
+		<attribute>
+			<name>width</name>
+			<allowed_values>
+				<value>
+					<number />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags />
+	
+</html_tag>

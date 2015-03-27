@@ -1,0 +1,97 @@
+<global_attributes>
+	<attribute_list>
+		<attribute>
+			<name>accesskey</name>
+			<allowed_values>
+				<value>char</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>class</name>
+			<allowed_values />
+		</attribute>
+		
+		<attribute>
+			<name>contenteditable</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>contextmenu</name>
+			<allowed_values>
+				<value>ID</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>dir</name>
+			<allowed_values>
+				<value>ltr</value>
+				<value>rtl</value>
+				<value>auto</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>draggable</name>
+			<allowed_values>
+				<value>char</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>dropzone</name>
+			<allowed_values>
+				<value>char</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>hidden</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>id</name>
+			<allowed_values />
+		</attribute>
+
+		<attribute>
+			<name>lang</name>
+			<allowed_values />
+		</attribute>
+
+		<attribute>
+			<name>spellcheck</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>style</name>
+			<allowed_values>
+				<value>CSS</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>tabindex</name>
+			<allowed_values>
+				<value>NUMERIC</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>title</name>
+			<allowed_values />
+		</attribute>
+	</attribute_list>
+</global_attributes>

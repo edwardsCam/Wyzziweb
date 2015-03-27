@@ -1,0 +1,1147 @@
+<css_attributes>
+	<color_properties>
+		<attribute>
+			<name>color</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>opacity</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>NUM</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>	
+	</color_properties>
+
+	<background_properties>
+		<attribute>
+			<name>background</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+
+				<field>
+					<name>position</name>
+					<values>
+						<value>left top</value>
+						<value>left center</value>
+						<value>left bottom</value>
+						<value>right top</value>
+						<value>right center</value>
+						<value>right bottom</value>
+						<value>center top</value>
+						<value>center center</value>
+						<value>center bottom</value>
+						<value>left center</value>
+						<value>% %</value>
+						<value>X Y</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>size</name>
+					<values>
+						<value>auto</value>
+						<value>LENGTH</value>
+						<value>%</value>
+						<value>cover</value>
+						<value>contain</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>repeat</name>
+					<values>
+						<value>repeat</value>
+						<value>repeat-x</value>
+						<value>repeat-y</value>
+						<value>no-repeat</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>origin</name>
+					<values>
+						<value>border-box</value>
+						<value>padding-box</value>
+						<value>content-box</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>clip</name>
+					<values>
+						<value>border-box</value>
+						<value>padding-box</value>
+						<value>content-box</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>attachment</name>
+					<values>
+						<value>scroll</value>
+						<value>fixed</value>
+						<value>local</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>image</name>
+					<values>
+						<value>URL</value>
+						<value>none</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+	</background_properties>
+
+	<border_properties>
+		<attribute>
+			<name>border</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name>width</name>
+					<values>
+						<value>px</value>
+						<value>medium</value>
+						<value>thin</value>
+						<value>thick</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>style</name>
+					<values>
+						<value>none</value>
+						<value>hidden</value>
+						<value>dotted</value>
+						<value>dashed</value>
+						<value>solid</value>
+						<value>double</value>
+						<value>groove</value>
+						<value>ridge</value>
+						<value>inset</value>
+						<value>outset</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>border-top</name>
+			<root_attr>border</root_attr>
+			<value_fields>
+				<field>
+					<name>width</name>
+					<values>
+						<value>px</value>
+						<value>medium</value>
+						<value>thin</value>
+						<value>thick</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>style</name>
+					<values>
+						<value>none</value>
+						<value>hidden</value>
+						<value>dotted</value>
+						<value>dashed</value>
+						<value>solid</value>
+						<value>double</value>
+						<value>groove</value>
+						<value>ridge</value>
+						<value>inset</value>
+						<value>outset</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>border-bottom</name>
+			<root_attr>border</root_attr>
+			<value_fields>
+				<field>
+					<name>width</name>
+					<values>
+						<value>px</value>
+						<value>medium</value>
+						<value>thin</value>
+						<value>thick</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>style</name>
+					<values>
+						<value>none</value>
+						<value>hidden</value>
+						<value>dotted</value>
+						<value>dashed</value>
+						<value>solid</value>
+						<value>double</value>
+						<value>groove</value>
+						<value>ridge</value>
+						<value>inset</value>
+						<value>outset</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>border-left</name>
+			<root_attr>border</root_attr>
+			<value_fields>
+				<field>
+					<name>width</name>
+					<values>
+						<value>px</value>
+						<value>medium</value>
+						<value>thin</value>
+						<value>thick</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>style</name>
+					<values>
+						<value>none</value>
+						<value>hidden</value>
+						<value>dotted</value>
+						<value>dashed</value>
+						<value>solid</value>
+						<value>double</value>
+						<value>groove</value>
+						<value>ridge</value>
+						<value>inset</value>
+						<value>outset</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>border-right</name>
+			<root_attr>border</root_attr>
+			<value_fields>
+				<field>
+					<name>width</name>
+					<values>
+						<value>px</value>
+						<value>medium</value>
+						<value>thin</value>
+						<value>thick</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>style</name>
+					<values>
+						<value>none</value>
+						<value>hidden</value>
+						<value>dotted</value>
+						<value>dashed</value>
+						<value>solid</value>
+						<value>double</value>
+						<value>groove</value>
+						<value>ridge</value>
+						<value>inset</value>
+						<value>outset</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>box-shadow</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name>h-shadow</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>v-shadow</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>blur</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>spread</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>color</name>
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+	</border_properties>
+
+	<text_decoration_properties>
+		<attribute>
+			<name>text-decoration</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>none</value>
+						<value>underline</value>
+						<value>overline</value>
+						<value>line-through</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-decoration-color</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>HEX</value>
+						<value>RGB</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-decoration-line</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>none</value>
+						<value>underline</value>
+						<value>overline</value>
+						<value>line-through</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-decoration-style</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>solid</value>
+						<value>double</value>
+						<value>dotted</value>
+						<value>dashed</value>
+						<value>wavy</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-shadow</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name>h-shadow</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>v-shadow</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>blur</name>
+					<values>
+						<value>px</value>
+					</values>
+				</field>
+
+				<field>
+					<name>color</name>
+					<values>
+						<value>RGB</value>
+						<value>HEX</value>
+					</values>
+				</field>
+
+			</value_fields>
+		</attribute>
+	</text_decoration_properties>
+
+	<font_properties>
+		<attribute>
+			<name>font</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name>weight</name>
+					<values>
+						<value>normal</value>
+						<value>bold</value>
+						<value>bolder</value>
+						<value>100</value>
+						<value>200</value>
+						<value>300</value>
+						<value>400</value>
+						<value>500</value>
+						<value>600</value>
+						<value>700</value>
+						<value>800</value>
+						<value>900</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>style</name>
+					<values>
+						<value>normal</value>
+						<value>oblique</value>
+						<value>italic</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>variant</name>
+					<values>
+						<value>normal</value>
+						<value>small-caps</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>size</name>
+					<values>
+						<value>medium</value>
+						<value>xx-small</value>
+						<value>x-small</value>
+						<value>large</value>
+						<value>x-large</value>
+						<value>xx-large</value>
+						<value>smaller</value>
+						<value>larger</value>
+						<value>px</value>
+						<value>%</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+
+				<field>
+					<name>family</name>
+					<values>
+						<value>arial</value>
+						<value>Cantarell</value>
+						<value>'Comic Sans MS'</value>
+						<value>'DejaVu Serif'</value>
+						<value>Georgia</value>
+						<value>Helvetica</value>
+						<value>'Lucida Console'</value>
+						<value>'Lucida Grande'</value>
+						<value>Tahoma</value>
+						<value>'Times New Roman'</value>
+						<value>'Trebuchet MS'</value>
+						<value>Verdana</value>
+						<value>caption</value>
+						<value>cursive</value>
+						<value>fantasy</value>
+						<value>icon</value>
+						<value>menu</value>
+						<value>message-box</value>
+						<value>monospace</value>
+						<value>sans-serif</value>
+						<value>serif</value>
+						<value>small-caption</value>
+						<value>status-bar</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>font-size-adjust</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>none</value>
+						<value>NUM</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>font-stretch</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>ultra-condensed</value>
+						<value>extra-condensed</value>
+						<value>condensed</value>
+						<value>semi-condensed</value>
+						<value>normal</value>
+						<value>semi-expanded</value>
+						<value>expanded</value>
+						<value>extra-expanded</value>
+						<value>ultra-expanded</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+	</font_properties>
+
+	<writing_modes_properties>
+		<attribute>
+			<name>direction</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>ltr</value>
+						<value>rtl</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+	</writing_modes_properties>
+
+	<basic_box_properties>
+		<attribute>
+			<name>bottom</name>
+			<root_attr>position</root_attr>
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>top</name>
+			<root_attr>position</root_attr>
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>left</name>
+			<root_attr>position</root_attr>
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>right</name>
+			<root_attr>position</root_attr>
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>float</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>none</value>
+						<value>left</value>
+						<value>right</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>clear</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>none</value>
+						<value>left</value>
+						<value>right</value>
+						<value>both</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>display</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>none</value>
+						<value>inline</value>
+						<value>block</value>
+						<value>inline-block</value>
+						<value>flex</value>
+						<value>inline-flex</value>
+						<value>inline-table</value>
+						<value>list-item</value>
+						<value>run-in</value>
+						<value>table</value>
+						<value>table-caption</value>
+						<value>table-column-group</value>
+						<value>table-header-group</value>
+						<value>table-footer-group</value>
+						<value>table-row-group</value>
+						<value>table-cell</value>
+						<value>table-column</value>
+						<value>table-row</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>height</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>width</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>overflow</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>visible</value>
+						<value>hidden</value>
+						<value>scroll</value>
+						<value>auto</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>padding</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>padding-top</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>padding-bottom</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>padding-left</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>padding-right</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>margin</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>margin-top</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>margin-bottom</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>margin-left</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>margin-right</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>position</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>static</value>
+						<value>absolute</value>
+						<value>fixed</value>
+						<value>relative</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>vertical-align</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>baseline</value>
+						<value>px</value>
+						<value>%</value>
+						<value>sub</value>
+						<value>super</value>
+						<value>top</value>
+						<value>text-top</value>
+						<value>middle</value>
+						<value>bottom</value>
+						<value>text-bottom</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>z-index</name>
+			<root_attr>position</root_attr>
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>auto</value>
+						<value>NUM</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+	</basic_box_properties>
+
+	<text_properties>
+		<attribute>
+			<name>line-height</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>normal</value>
+						<value>NUM</value>
+						<value>px</value>
+						<value>%</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-align</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>left</value>
+						<value>right</value>
+						<value>center</value>
+						<value>justify</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-transform</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>uppercase</value>
+						<value>lowercase</value>
+						<value>capitalize</value>
+						<value>none</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>white-space</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>normal</value>
+						<value>nowrap</value>
+						<value>pre</value>
+						<value>pre-line</value>
+						<value>normal</value>
+						<value>pre-wrap</value>
+						<value>initial</value>
+						<value>inherit</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>word-wrap</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>normal</value>
+						<value>break-word</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+
+		<attribute>
+			<name>text-indent</name>
+			<root_attr />
+			<value_fields>
+				<field>
+					<name />
+					<values>
+						<value>px</value>
+						<value>%</value>
+					</values>
+				</field>
+			</value_fields>
+		</attribute>
+	</text_properties>
+
+</css_attributes>

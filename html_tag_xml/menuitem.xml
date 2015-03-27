@@ -1,0 +1,57 @@
+<html_tag>
+
+	<tag>menuitem</tag>
+	<image></image>
+	<desc>Menu Item</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>checked</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>default</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>icon</name>
+			<allowed_values>
+				<value>
+					<url />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>label</name>
+			<allowed_values>
+				<value>
+					<text />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>type</name>
+			<allowed_values>
+				<value>checkbox</value>
+				<value>command</value>
+				<value>radio</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags />
+	
+</html_tag>

@@ -1,0 +1,44 @@
+<html_tag>
+
+	<tag>ol</tag>
+	<image></image>
+	<desc>Ordered List</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>reversed</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>start</name>
+			<allowed_values>
+				<value>
+					<number />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>type</name>
+			<allowed_values>
+				<value>1</value>
+				<value>A</value>
+				<value>a</value>
+				<value>I</value>
+				<value>i</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags>
+		<tag>li</tag>
+	</sub_tags>
+	
+</html_tag>

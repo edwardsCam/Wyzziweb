@@ -1,0 +1,24 @@
+<html_tag>
+
+	<tag>h1</tag>
+	<image></image>
+	<desc>Header 1</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+		
+		<attribute>
+			<name>align</name>
+			<allowed_values>
+				<value>left</value>
+				<value>right</value>
+				<value>center</value>
+				<value>justify</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags />
+	
+</html_tag>

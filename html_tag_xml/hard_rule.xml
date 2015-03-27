@@ -1,0 +1,49 @@
+<html_tag>
+
+	<tag>hr</tag>
+	<image></image>
+	<desc>Horizontal Rule</desc>
+	<self_closing>true</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>align</name>
+			<allowed_values>
+				<value>left</value>
+				<value>center</value>
+				<value>right</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>noshade</name>
+			<allowed_values>
+				<value>true</value>
+				<value>false</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>size</name>
+			<allowed_values>
+				<value>
+					<number />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+		<attribute>
+			<name>width</name>
+			<allowed_values>
+				<value>
+					<number />
+				</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+	
+	<sub_tags />
+	
+</html_tag>

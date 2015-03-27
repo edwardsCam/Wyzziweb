@@ -1,0 +1,141 @@
+<html_tag>
+
+	<tag>object</tag>
+	<image></image>
+	<desc>Object</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+		
+		<attribute>
+			<name>align</name>
+			<allowed_values>
+				<value>top</value>
+				<value>bottom</value>
+				<value>middle</value>
+				<value>left</value>
+				<value>right</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>archive</name>
+			<allowed_values>
+				<value>URL</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>border</name>
+			<allowed_values>
+				<value>pixels</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>classid</name>
+			<allowed_values>
+				<value>class_ID</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>codebase</name>
+			<allowed_values>
+				<value>URL</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>codetype</name>
+			<allowed_values>
+				<value>media_type</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>data</name>
+			<allowed_values>
+				<value>URL</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>declare</name>
+			<allowed_values>
+				<value>declare</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>form</name>
+			<allowed_values>
+				<value>form_id</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>height</name>
+			<allowed_values>
+				<value>pixels</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>hspace</name>
+			<allowed_values>
+				<value>pixels</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>name</name>
+			<allowed_values>
+				<value>name</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>standby</name>
+			<allowed_values>
+				<value>
+					<text />
+				</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>type</name>
+			<allowed_values>
+				<value>media_type</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>usemap</name>
+			<allowed_values>
+				<value>#mapname</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>vspace</name>
+			<allowed_values>
+				<value>pixels</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>width</name>
+			<allowed_values>
+				<value>pixels</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+
+	<sub_tags>
+		<tag>param</tag>
+	</sub_tags>
+	
+</html_tag>

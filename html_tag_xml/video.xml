@@ -1,0 +1,81 @@
+<html_tag>
+
+	<tag>video</tag>
+	<image></image>
+	<desc>Video</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+		
+		<attribute>
+			<name>autoplay</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>controls</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>pixels</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>loop</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>muted</name>
+			<allowed_values>
+				<value>na</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>poster</name>
+			<allowed_values>
+				<value>URL</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>preload</name>
+			<allowed_values>
+				<value>auto</value>
+				<value>metadata</value>
+				<value>none</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>src</name>
+			<allowed_values>
+				<value>URL</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>width</name>
+			<allowed_values>
+				<value>pixels</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+
+	<sub_tags>
+		<tag>source</tag>
+	</sub_tags>
+	
+</html_tag>

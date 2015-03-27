@@ -1,0 +1,35 @@
+<html_tag>
+
+	<tag>source</tag>
+	<image></image>
+	<desc>Source</desc>
+	<self_closing>false</self_closing>
+	
+	<attribute_list>
+	
+		<attribute>
+			<name>media</name>
+			<allowed_values>
+				<value>media_query</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>src</name>
+			<allowed_values>
+				<value>URL</value>
+			</allowed_values>
+		</attribute>
+
+		<attribute>
+			<name>type</name>
+			<allowed_values>
+				<value>media_type</value>
+			</allowed_values>
+		</attribute>
+		
+	</attribute_list>
+
+	<sub_tags />
+	
+</html_tag>
